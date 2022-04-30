@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2? família=Open+Sans:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+}
+
+/* início do header */
+.cabecalho {
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0.75rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.simboloAvanade {
+    width: auto;
+    height: 40px;
+    padding-left: 30px;
+}
+.cabecalho .botao {
+    border-radius: 30px;
+    border: 0px;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgb(255, 88, 0);
+    box-shadow: rgb(0 0 0 / 20%) 0px 5px 10px, rgb(0 0 0 / 10%) 0px 5px 6px;
+    transition: background-color 0.2s ease-in-out 0s;
+    border: 2px solid black;
+    margin-right: 30px;
+    box-shadow: #ccc 10px 10px 10px;
+}
+
+.cabecalho .botao:hover{
+    cursor: pointer;
+    background-color: #d15d18;
+}
+
+.cabecalho .botao a {
+    text-decoration: none;
+    color: #fff;
+}
+/* fim do header */
+
+.secao1 {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, auto);
+}
+
+.conteudo-principal .titulo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.secao1 .paragrafo-principal {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.secao1 .perfil {
+    border-radius: 50%;
+}
+
+.secao2 {
+    background-color: rgb(255, 88, 0);
+    color: #fff;
+}
+
