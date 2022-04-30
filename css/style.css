@@ -149,3 +149,14 @@ body {
     padding-top: 50px;
 }
 /* fim da seção 2 */
+
+/*edição da imagem final */
+.img-fim {
+    width: 100%;
+    text-align: right;
+    background-color: rgb(255, 88, 0);
+}
+
+.footer-img {
+    width: 40%;
+}
