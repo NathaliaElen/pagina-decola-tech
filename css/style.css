@@ -124,13 +124,28 @@ body {
 .secao2 .titulo2 {
     font-size: 2rem;
     font-weight: bold;
-    padding-bottom: 30px;
-    padding-left: 100px;
+    padding: 100px 0 30px 100px;
+}
+
+.secao2 .subtitulo {
+    padding: 30px 0 30px 100px;  
 }
 
 .secao2 .paragrafo {
     font-size: 16px;
+    padding: 0 200px 30px 100px;
+    text-align: justify;
 }
 
+.secao2 .div-imgDecola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
 
+.secao2 .img-decola {
+    width: 400px;  
+    padding-top: 50px;
+}
 /* fim da seção 2 */
